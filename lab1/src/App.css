@@ -73,7 +73,7 @@ button {
   color: red;
 }
 
-input[type=text], input[type=date] {
+input[type=text], input[type=date] , select{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -102,4 +102,19 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+.priority.low {
+  border-radius: 5px;
+  background-color: green;
+}
+
+.priority.medium {
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.priority.high {
+  border-radius: 5px;
+  background-color: red;
 }
