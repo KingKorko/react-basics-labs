@@ -2,6 +2,7 @@ import './App.css';
 import Task from './components/task';
 import React, { useState } from 'react';
 
+function App() {
  const [ taskState, setTaskState ] = useState({
     tasks: [
       { title:"Dishes", description: "Empty dishwasher", deadline: "Today" },
@@ -10,7 +11,6 @@ import React, { useState } from 'react';
     ]
   });
 
-function App() {
    return (
     <div className="container">
       <h1>Tasky</h1>
